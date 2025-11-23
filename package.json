@@ -10,9 +10,11 @@
     "format": "biome format --write"
   },
   "dependencies": {
+    "@stackframe/stack": "^2.8.52",
     "next": "16.0.3",
     "react": "19.2.0",
-    "react-dom": "19.2.0"
+    "react-dom": "19.2.0",
+    "shadcn": "^3.5.0"
   },
   "devDependencies": {
     "@biomejs/biome": "2.2.0",
