@@ -10,6 +10,7 @@
     "format": "biome format --write"
   },
   "dependencies": {
+    "@prisma/client": "^6.0.0",
     "@stackframe/stack": "^2.8.52",
     "next": "16.0.3",
     "react": "19.2.0",

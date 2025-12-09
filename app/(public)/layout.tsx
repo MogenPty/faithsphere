@@ -1,4 +1,5 @@
 import type React from "react";
+import PublicNavigation from "@/components/public/navigation";
 
 interface Params {
   children: React.ReactNode;
@@ -7,9 +8,8 @@ interface Params {
 const PublicLayout = ({ children }: Params) => {
   return (
     <div>
-      <nav className="flex items-center justify-between p-1">
-        <div>FaithSphere</div>
-      </nav>
+      {/* Navigation */}
+      <PublicNavigation />
       <main>{children}</main>
     </div>
   );
